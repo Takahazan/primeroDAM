@@ -49,17 +49,17 @@ public class Tema3A2 {
     boolean terminar = false;
     
     //entrada de datos
-    Scanner ent_pais = new Scanner(System.in);
-    Scanner ent_hortaliza = new Scanner(System.in);
-    Scanner ent_toneladasES = new Scanner(System.in);
-    Scanner ent_toneladasFR = new Scanner(System.in);
-    Scanner ent_toneladasAL = new Scanner(System.in);
+    Scanner entPais = new Scanner(System.in);
+    Scanner entHortaliza = new Scanner(System.in);
+    Scanner entToneladasES = new Scanner(System.in);
+    Scanner entToneladasFR = new Scanner(System.in);
+    Scanner entToneladasAL = new Scanner(System.in);
     
     do{
     	do{
     noHortaliza = false;
     System.out.println("Introduce el país de referencia (España, Francia o Alemania). PARA ACABAR EL PROGRAMA, USA @");
-    pais = ent_pais.nextLine();
+    pais = entPais.nextLine();
     
     switch ( pais ){
         
@@ -108,26 +108,26 @@ public class Tema3A2 {
         do{
     noHortaliza = true;
     System.out.println("Introduce la hortaliza a contar (Tomate, Patata, Espinaca)");
-    hortaliza = ent_hortaliza.nextLine();
+    hortaliza = entHortaliza.nextLine();
     
         switch ( hortaliza ){
             case "Tomate":
                 if (pES == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaES = totalToneladaES + ent_toneladasES.nextInt();
+                    totalToneladaES = totalToneladaES + entToneladasES.nextInt();
                     noHortaliza = false;
                     pES = false;
                 }
                 else if (pFR == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaFR = totalToneladaFR + ent_toneladasFR.nextInt();
+                    totalToneladaFR = totalToneladaFR + entToneladasFR.nextInt();
                     noHortaliza = false;
                     pFR = false;
                 }
                 
                 else if (pAL == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaAL = totalToneladaAL + ent_toneladasAL.nextInt();
+                    totalToneladaAL = totalToneladaAL + entToneladasAL.nextInt();
                     noHortaliza = false;
                     pAL = false;
                 }
@@ -136,20 +136,20 @@ public class Tema3A2 {
             case "Patata":
                   if (pES == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaES = totalToneladaES + ent_toneladasES.nextInt();
+                    totalToneladaES = totalToneladaES + entToneladasES.nextInt();
                     noHortaliza = false;
                     pES = false;
                 }
                 else if (pFR == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaFR = totalToneladaFR + ent_toneladasFR.nextInt();
+                    totalToneladaFR = totalToneladaFR + entToneladasFR.nextInt();
                     noHortaliza = false;
                     pFR = false;
                 }
                 
                 else if (pAL == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaAL = totalToneladaAL + ent_toneladasAL.nextInt();
+                    totalToneladaAL = totalToneladaAL + entToneladasAL.nextInt();
                     noHortaliza = false;
                     pAL = false;
                 }
@@ -158,20 +158,20 @@ public class Tema3A2 {
             case "Espinaca":
                    if (pES == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaES = totalToneladaES + ent_toneladasES.nextInt();
+                    totalToneladaES = totalToneladaES + entToneladasES.nextInt();
                     noHortaliza = false;
                     pES = false;
                 }
                 else if (pFR == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaFR = totalToneladaFR + ent_toneladasFR.nextInt();
+                    totalToneladaFR = totalToneladaFR + entToneladasFR.nextInt();
                     noHortaliza = false;
                     pFR = false;
                 }
                 
                 else if (pAL == true){
                     System.out.println("Introduce el número de toneladas. SOLO NÚMEROS");
-                    totalToneladaAL = totalToneladaAL + ent_toneladasAL.nextInt();
+                    totalToneladaAL = totalToneladaAL + entToneladasAL.nextInt();
                     noHortaliza = false;
                     pAL = false;
                 }
